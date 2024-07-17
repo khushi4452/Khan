@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.form-heading-cont{
+    justify-content: center;
+text-align: center;
+display: flex;
+}
+.form-heading{
+    justify-content: center;
+text-align: center;
+margin: 10px 20px;
+font-weight:bold;
+font-size: 30px;
+}
+
+.add-btn{
+    height: 50px;
+    position: fixed;
+    right: 400px;
+   bottom: 630px; 
+   z-index: 10;
+}
+
+.add-button{
+justify-content: center;
+text-align: center;
+margin: 10px 20px;
+background-color: #28a745;
+
+color: white;
+padding: 10px;
+border-radius: 10px;
+
+
+}
+.button-add {
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media (min-width:320px){
+    
+.add-button{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 20px;
+    background-color: #28a745;
+    
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+}
